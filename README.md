@@ -2,7 +2,7 @@
 WhatsApp phone number bruteforcer. This tool is great in case you have an already existing WhatsApp phone number with
 a few missing digits.
 Wabf works by (ab)using WhatsApp Web API. That's why, in order for wabf to work, you need to log in with your WhatsApp mobile app.
-This project is an early implementation of one of my project, ![Kyros](https://github.com/ttycelery/kyros).
+This project is an early implementation of one of my project, [Kyros](https://github.com/ttycelery/kyros).
 To run this tool, you need to have at least Python 3.6 installed.
 
 ## Installation
