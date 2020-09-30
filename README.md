@@ -1,4 +1,4 @@
-# wabf
+# WABF - WhatsApp Brute-Forcer
 WhatsApp phone number bruteforcer. This tool is great in case you have an already existing WhatsApp phone number with
 a few missing digits.
 Wabf works by (ab)using WhatsApp Web API. That's why, in order for wabf to work, you need to log in with your WhatsApp mobile app.
@@ -14,9 +14,14 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To simply run the tool (notice the "x"):
+To simply run the tool (notice the "x" this is thenumber which we are unsure of):
 ```
-python wabf.py 6281288x272x7
+In Windows CMD
+    python3 wabf.py 6281288x272x7
+In Linux:
+    sudo chmod 777 wabf.py
+    python3 wabf.py
+     
 ```
 ### `PHONE_NUMBER` argument
 The content of this first and only argument is the phone number which has a missing digit identified by "x". 
